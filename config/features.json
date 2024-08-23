@@ -1,0 +1,16 @@
+{
+  "features": [
+    {
+      "title": "Studio",
+      "description": "Build AI agents with ease using natural language and intuitive tools."
+    },
+    {
+      "title": "Lab",
+      "description": "Test, evaluate and refine your agents with insights and performance metrics."
+    },
+    {
+      "title": "Hub",
+      "description": "Share and monetize your agents as apps, APIs, or chatbots with the world."
+    }
+  ]
+}
