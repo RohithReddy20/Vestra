@@ -31,13 +31,12 @@ const HomePage = () => {
   return (
     <div className="min-h-scree text-white flex flex-col px-6 max-w-[1312px] relative mx-auto">
       <Header />
-
       <main className="flex-grow flex flex-col items-center justify-center text-center">
         <div className="flex w-[90%] max-w-[653px] border border-[#2F2E2D] h-14 md:h-[72px] items-center rounded-[100px] bg-[#0f0f0f] pl-6 pr-[2px]">
           <Input
             type="email"
             placeholder="Enter your email address"
-            className="flex-grow mr-2 border-0 focus-visible:ring-transparent shadow-none"
+            className="flex-grow mr-2 border-0 focus-visible:ring-transparent shadow-none font-ttfir text-xl"
             onChange={handleEmailChange}
             value={email}
             onKeyDown={(e) => e.key === "Enter" && joinWaitlist()}

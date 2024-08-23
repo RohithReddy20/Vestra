@@ -26,14 +26,14 @@ export const Header = () => {
           Join Waitlist
         </Button>
       </header>
-      <div className="flex justify-center items-center flex-col pt-20 pb-12 md:pt-16 md:pb-24">
+      <div className="flex justify-center items-center flex-col py-6">
         <h1 className="text-5xl md:text-[80px] font-bold mb-4 font-ttfir text-center">
           Agent Systems
         </h1>
         <h1 className="text-5xl md:text-[80px] font-bold mb-4 font-ttfir text-center flex">
           Made {<AnimatedText />}
         </h1>
-        <p className="mb-8 text-[#BFBFBF] text-xl md:text-3xl font-normal md:font-medium font-alliance text-center">
+        <p className="text-[#BFBFBF] text-xl md:text-3xl font-normal md:font-medium font-alliance text-center">
           Build, deploy and monetize AI agent systems in minutes
         </p>
       </div>

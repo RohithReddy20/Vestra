@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const words = ["Easy", "Intuitive", "Powerful"];
+const words = ["Easy", "Powerful", "Intuitive"];
 
 const useTextAnimation = (text: string, isVisible: boolean) => {
   const [displayText, setDisplayText] = useState("");

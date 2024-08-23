@@ -3,7 +3,7 @@ import { features } from "../../../config/features.json";
 
 export const FeatureCards = () => {
   return (
-    <div className="flex overflow-x-scroll scrollbar-hide w-full lg:justify-center relative py-20 md:py-24">
+    <div className="flex overflow-x-scroll scrollbar-hide w-full lg:justify-center relative py-6">
       <div className="flex flex-nowrap lg:ml-0 md:ml-20 ml-10 space-x-4 -mx-4 px-4 scrollbar-hide">
         {features.map((feature, index) => (
           <Card
